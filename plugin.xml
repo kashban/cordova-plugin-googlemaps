@@ -154,8 +154,8 @@ The native map view is faster, use less network usage, display 3D views, and eve
             </feature>
         </config-file>
 
-        <framework src="com.google.android.gms:play-services-maps:+" />
-        <framework src="com.google.android.gms:play-services-location:+" />
+        <framework src="com.google.android.gms:play-services-maps:11.8.0" />
+        <framework src="com.google.android.gms:play-services-location:11.8.0" />
 
         <!-- plugin src files -->
         <source-file src="src/android/plugin/google/maps/AsyncLoadImage.java" target-dir="src/plugin/google/maps" />
